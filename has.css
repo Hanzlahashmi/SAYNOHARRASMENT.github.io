@@ -1,0 +1,88 @@
+body{
+background-color: rgb(1, 1, 24);
+background-repeat: no-repeat;
+background-position: bottom;
+ height: 1400px;
+
+}
+img{
+border-radius: 141px;
+    margin-top: -246px;
+}
+img:hover {
+    filter: drop-shadow(0 0 0.75rem rgb(190, 30, 9));
+    
+    transition: 0.5;
+    transform: scale(1.1);
+    
+}
+.contanier{
+    text-align: center;
+    align-items: center;
+     padding-top: 325px;
+}
+.contanier h1{
+    font-weight: bolder;
+    color: #fff;
+    font-size: 56px;
+    padding-top: 30px;
+}
+.contanier h1:hover {
+    transform: scale(1.1);
+    background-color: transparent;
+    color: #be2e02;
+    transition: .4s;
+    cursor: pointer;
+}
+.text{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: monospace;
+    padding-top: 59px;
+}
+.id{
+        border-radius: 25px;
+            text-align: center;
+}
+.btn1{
+padding-top: 10px;
+}
+
+.btn {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: bold;
+
+}
+
+.btn:hover {
+    transform: scale(1.2);
+    background-color: black;
+    border: 2px solid #ffcc74;
+    color: #ffcc74;
+    transition: .2s;
+    cursor: pointer;
+}
+.footer h3{
+         margin-top: -94px;
+        padding-left: 981px;
+        font-size: 22px;
+        color: #fff;
+        -webkit-animation: glow 1s ease-in-out infinite alternate;
+        -moz-animation: glow 1s ease-in-out infinite alternate;
+        animation: glow 1s ease-in-out infinite alternate;
+    }
+
+    @-webkit-keyframes glow {
+        from {
+            text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #be2e02, 0 0 40px #be2e02, 0 0 50px #be2e02, 0 0 60px #be2e02, 0 0 70px #be2e02;
+        }
+
+        
+    }
